@@ -83,4 +83,3 @@ node scripts/test-full-process.js
 ## License
 
 MIT
-# media-ge
