@@ -29,7 +29,7 @@
 	<meta property="og:image:type" content="image/png" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@TechCrunch" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://techcrunch.com/category/artificial-intelligence/","url":"https://techcrunch.com/category/artificial-intelligence/","name":"AI News & Artificial Intelligence | TechCrunch","isPartOf":{"@id":"https://techcrunch.com/#website"},"primaryImageOfPage":{"@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage"},"image":{"@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage"},"thumbnailUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","description":"Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.","breadcrumb":{"@id":"https://techcrunch.com/category/artificial-intelligence/#breadcrumb"},"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage","url":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","contentUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","width":2121,"height":1414,"caption":"Paper craft illustration of male hand and increase chart. Bull market concept."},{"@type":"BreadcrumbList","@id":"https://techcrunch.com/category/artificial-intelligence/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://techcrunch.com/"},{"@type":"ListItem","position":2,"name":"AI"}]},{"@type":"WebSite","@id":"https://techcrunch.com/#website","url":"https://techcrunch.com/","name":"TechCrunch","description":"Startup and Technology News","publisher":{"@id":"https://techcrunch.com/#organization"},"alternateName":"TC","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://techcrunch.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://techcrunch.com/#organization","name":"TechCrunch","alternateName":"TC","url":"https://techcrunch.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techcrunch.com/#/schema/logo/image/","url":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200","contentUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200","width":1200,"height":1200,"caption":"TechCrunch"},"image":{"@id":"https://techcrunch.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/techcrunch","https://x.com/TechCrunch","https://mstdn.social/@TechCrunch","https://bsky.app/profile/techcrunch.com","https://www.threads.net/@techcrunch"]}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://techcrunch.com/category/artificial-intelligence/","url":"https://techcrunch.com/category/artificial-intelligence/","name":"AI News & Artificial Intelligence | TechCrunch","isPartOf":{"@id":"https://techcrunch.com/#website"},"primaryImageOfPage":{"@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage"},"image":{"@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage"},"thumbnailUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","description":"Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.","breadcrumb":{"@id":"https://techcrunch.com/category/artificial-intelligence/#breadcrumb"},"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techcrunch.com/category/artificial-intelligence/#primaryimage","url":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","contentUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png","width":1995,"height":1122,"caption":"An illustration of a humanoid robot emerging from a smartphone screen"},{"@type":"BreadcrumbList","@id":"https://techcrunch.com/category/artificial-intelligence/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://techcrunch.com/"},{"@type":"ListItem","position":2,"name":"AI"}]},{"@type":"WebSite","@id":"https://techcrunch.com/#website","url":"https://techcrunch.com/","name":"TechCrunch","description":"Startup and Technology News","publisher":{"@id":"https://techcrunch.com/#organization"},"alternateName":"TC","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://techcrunch.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://techcrunch.com/#organization","name":"TechCrunch","alternateName":"TC","url":"https://techcrunch.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techcrunch.com/#/schema/logo/image/","url":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200","contentUrl":"https://techcrunch.com/wp-content/uploads/2018/04/tc-logo-2018-square-reverse2x.png?resize=1200,1200","width":1200,"height":1200,"caption":"TechCrunch"},"image":{"@id":"https://techcrunch.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/techcrunch","https://x.com/TechCrunch","https://mstdn.social/@TechCrunch","https://bsky.app/profile/techcrunch.com","https://www.threads.net/@techcrunch"]}]}</script>
 	<!-- / Yoast SEO Premium plugin. -->
 
 
@@ -244,11 +244,11 @@ display: none;
 		}
 </style>
 <link rel='stylesheet' id='all-css-70' href='https://techcrunch.com/_static/??-eJydjUsOwjAMRC9EMK0iygZxlshJqVHzke0UcXuibmAHymo00rx58CwGc9KQFHClFiZWU9Z6pySgaLxTZwrT5vAFnqTNRGDmnfHHVg7w6+NRmcQTKuVk5pw1cO+V8/IHqkuIYd+PtteEmcOHlcVx6CK/rbd4HSZrL8N5Oo1vEhCMqg==' type='text/css' media='all' />
-<script src="https://s.yimg.com/oa/consent.js?ver=250418" id="tc-didomi-consent-js" data-wp-strategy="async"></script>
-<script src="https://consent.cmp.oath.com/cmp.js?ver=20250418" id="tc-gdpr-cmp-js" async data-wp-strategy="async"></script>
-<script src="https://s.yimg.com/cx/acookie/acookie.js?ver=20250418" id="tc-gdpr-acookie-js" data-wp-strategy="async"></script>
+<script src="https://s.yimg.com/oa/consent.js?ver=250420" id="tc-didomi-consent-js" data-wp-strategy="async"></script>
+<script src="https://consent.cmp.oath.com/cmp.js?ver=20250420" id="tc-gdpr-cmp-js" async data-wp-strategy="async"></script>
+<script src="https://s.yimg.com/cx/acookie/acookie.js?ver=20250420" id="tc-gdpr-acookie-js" data-wp-strategy="async"></script>
 <script src="https://s.yimg.com/aaq/benji/benji-2.2.103.js?ver=080e915af384d995f8de" id="tc_benji-js" async data-wp-strategy="async"></script>
-<script type="text/javascript" src="https://techcrunch.com/_static/??/wp-content/themes/tc-24/dist/js/frontend-head.js,/wp-content/client-mu-plugins/tc-analytics/dist/js/comscore.js?m=1743089964j" ></script><script src="https://s.yimg.com/aaq/vzm/cs_1.7.0-alpha.2.js?ver=250418" id="tc-comscore-js" async data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://techcrunch.com/_static/??/wp-content/themes/tc-24/dist/js/frontend-head.js,/wp-content/client-mu-plugins/tc-analytics/dist/js/comscore.js?m=1743089964j" ></script><script src="https://s.yimg.com/aaq/vzm/cs_1.7.0-alpha.2.js?ver=250420" id="tc-comscore-js" async data-wp-strategy="async"></script>
 <link rel="https://api.w.org/" href="https://techcrunch.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://techcrunch.com/wp-json/wp/v2/categories/577047203" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://techcrunch.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.7.2" />
 	<style>img#wpstats{display:none}</style>
@@ -807,14 +807,224 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 	<div class="wp-block-techcrunch-rapid-read__loading-logo" data-wp-class--is-visible="state.isLoading">
 		<svg aria-hidden="1" aria-hidden="true" class="tc-mark-loading-logo standard" viewBox="0 0 76 46"><defs><linearGradient id="b" x1="100%" x2=".572%" y1="100%" y2=".572%"><stop offset="0%" stop-color="#00D301"/><stop offset="50%" stop-color="#36C275"/><stop offset="100%" stop-color="#00A562"/></linearGradient><mask id="a" width="59.5" height="29.5" x="0" y="0" maskUnits="userSpaceOnUse"><path fill="#fff" d="M0 0h10v10H0zm10 0h10v10H10zm0 10h10v10H10zm0 10h10v10H10zM20 0h10v10H20zm10 10h10v10H30zm0 10h10v10H30zm10 0h10v10H40zm0-20h10v10H40zm10 20h10v10H50zm0-20h10v10H50z"/></mask></defs><g class="animation-group" mask="url(#a)"><path fill="url(#b)" d="M0 0h73v43H0z"/><path d="M49.9 20h10.2v10.2H49.9z" class="tc-mark tc-mark-0"/><path d="M-.1 0h10.2v10.2H-.1z" class="tc-mark tc-mark-1"/><path d="M9.9 20h10.2v10.2H9.9z" class="tc-mark tc-mark-2"/><path d="M49.9 0h10.2v10.2H49.9z" class="tc-mark tc-mark-3"/><path d="M29.9 20h10.2v10.2H29.9z" class="tc-mark tc-mark-4"/><path d="M19.9 0h10.2v10.2H19.9z" class="tc-mark tc-mark-5"/><path d="M9.9 0h10.2v10.2H9.9z" class="tc-mark tc-mark-6"/><path d="M39.9 0h10.2v10.2H39.9z" class="tc-mark tc-mark-7"/><path d="M9.9 10h10.2v10.2H9.9z" class="tc-mark tc-mark-8"/><path d="M29.9 10h10.2v10.2H29.9z" class="tc-mark tc-mark-9"/><path d="M39.9 20h10.2v10.2H39.9z" class="tc-mark tc-mark-10"/></g></svg>	</div>
 </div>
-<ul data-wp-class--force-hide="state.showDefaultComponents" class="wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-2995878 tc_podcast type-tc_podcast status-publish has-post-thumbnail hentry category-artificial-intelligence category-startups category-transportation tag-equity-podcast tag-figma tag-gpt tag-ipo tag-kodiak tag-openai tag-spac tc_podcast_type-equity">
+<ul data-wp-class--force-hide="state.showDefaultComponents" class="wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-2996211 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups category-tc tag-ai-agents tag-epoch-ai">
+	<div class="wp-block-techcrunch-card wp-block-null">
+
+	
+	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+
+			<figure class="loop-card__figure">
+			<img width="668" height="375" src="https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?w=668" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="An illustration of a humanoid robot emerging from a smartphone screen" decoding="async" fetchpriority="high" srcset="https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg 1995w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=150,84 150w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=768,432 768w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=680,382 680w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=1200,675 1200w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=1280,720 1280w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=430,242 430w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=720,405 720w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=900,506 900w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=800,450 800w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=1536,864 1536w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=668,375 668w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=1097,617 1097w, https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-949652688.jpg?resize=708,398 708w" sizes="(max-width: 668px) 100vw, 668px" />		</figure>
+	
+	<div class="loop-card__content">
+
+		
+					<div class="loop-card__cat-group">
+				
+				
+															<a data-destinationLink="https://techcrunch.com/category/startups/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/startups/" class="loop-card__cat">Startups</a>
+												</div>
+		
+					<h3 class="loop-card__title">
+
+				
+				<a data-destinationLink="https://techcrunch.com/2025/04/19/famed-ai-researcher-launches-controversial-startup-to-replace-all-human-workers-everywhere/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/19/famed-ai-researcher-launches-controversial-startup-to-replace-all-human-workers-everywhere/" class="loop-card__title-link">Famed AI researcher launches controversial startup to replace all human workers everywhere</a>
+			</h3>
+		
+		
+					<div class="loop-card__meta">
+													<ul class="loop-card__meta-item loop-card__author-list">
+													<li><a data-destinationLink="https://techcrunch.com/author/julie-bort/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/julie-bort/">Julie Bort</a></li>
+											</ul>
+																			<time datetime="2025-04-19T09:09:45-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
+	16 hours ago</time>
+																								</div>
+		
+		
+			</div>
+
+		</div>
+</div>
+
+	</li><li class="wp-block-post post-2995658 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-hallucinations tag-openai">
+	<div class="wp-block-techcrunch-card wp-block-null">
+
+	
+	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+
+			<figure class="loop-card__figure">
+			<img width="668" height="375" src="https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?w=668" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="pattern of openAI logo" decoding="async" srcset="https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg 1920w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=150,84 150w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=768,432 768w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=680,383 680w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=1200,675 1200w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=1280,720 1280w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=430,242 430w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=720,405 720w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=900,506 900w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=800,450 800w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=1536,864 1536w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=668,375 668w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=1097,617 1097w, https://techcrunch.com/wp-content/uploads/2023/11/openAI-pattern-03.jpg?resize=708,398 708w" sizes="(max-width: 668px) 100vw, 668px" />		</figure>
+	
+	<div class="loop-card__content">
+
+		
+					<div class="loop-card__cat-group">
+				
+				
+															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
+												</div>
+		
+					<h3 class="loop-card__title">
+
+				
+				<a data-destinationLink="https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/" class="loop-card__title-link">OpenAI&#8217;s new reasoning AI models hallucinate more</a>
+			</h3>
+		
+		
+					<div class="loop-card__meta">
+													<ul class="loop-card__meta-item loop-card__author-list">
+													<li><a data-destinationLink="https://techcrunch.com/author/maxwell-zeff/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/maxwell-zeff/">Maxwell Zeff</a></li>
+											</ul>
+																			<time datetime="2025-04-18T14:09:44-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
+	1 day ago</time>
+																								</div>
+		
+		
+			</div>
+
+		</div>
+</div>
+
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2607630 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-evergreens tag-generative-ai tag-openai">
+	<div class="wp-block-techcrunch-card wp-block-null">
+
+	
+	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+
+			<figure class="loop-card__figure">
+			<img width="563" height="375" src="https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?w=563" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="ChatGPT welcome screen" decoding="async" srcset="https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg 1200w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=768,511 768w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=430,286 430w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=720,479 720w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=900,599 900w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=563,375 563w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=927,617 927w, https://techcrunch.com/wp-content/uploads/2023/03/GettyImages-1462188043-e1686340799615.jpg?resize=708,471 708w" sizes="(max-width: 563px) 100vw, 563px" />		</figure>
+	
+	<div class="loop-card__content">
+
+		
+					<div class="loop-card__cat-group">
+				
+				
+															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
+												</div>
+		
+					<h3 class="loop-card__title">
+
+				
+				<a data-destinationLink="https://techcrunch.com/2025/04/18/chatgpt-everything-to-know-about-the-ai-chatbot/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/chatgpt-everything-to-know-about-the-ai-chatbot/" class="loop-card__title-link">ChatGPT: Everything you need to know about the AI-powered chatbot</a>
+			</h3>
+		
+		
+					<div class="loop-card__meta">
+													<ul class="loop-card__meta-item loop-card__author-list">
+													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
+													<li><a data-destinationLink="https://techcrunch.com/author/cody-corrall/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/cody-corrall/">Cody Corrall</a></li>
+													<li><a data-destinationLink="https://techcrunch.com/author/alyssa-stringer/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/alyssa-stringer/">Alyssa Stringer</a></li>
+													<li><a data-destinationLink="https://techcrunch.com/author/kate-park/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kate-park/">Kate Park</a></li>
+											</ul>
+																			<time datetime="2025-04-18T13:29:21-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
+	1 day ago</time>
+																								</div>
+		
+		
+			</div>
+
+		</div>
+</div>
+
+	</li><li class="wp-block-post post-2995785 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-openai">
+	<div class="wp-block-techcrunch-card wp-block-null">
+
+	
+	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+
+			<figure class="loop-card__figure">
+			<img width="562" height="375" src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?w=562" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="The ChatGPT logo appears on a smartphone screen" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg 1024w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=680,454 680w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=800,534 800w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=668,446 668w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=562,375 562w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=925,617 925w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2191707579.jpg?resize=708,472 708w" sizes="auto, (max-width: 562px) 100vw, 562px" />		</figure>
+	
+	<div class="loop-card__content">
+
+		
+					<div class="loop-card__cat-group">
+				
+				
+															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
+												</div>
+		
+					<h3 class="loop-card__title">
+
+				
+				<a data-destinationLink="https://techcrunch.com/2025/04/18/chatgpt-is-referring-to-users-by-their-names-unprompted-and-some-find-it-creepy/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/chatgpt-is-referring-to-users-by-their-names-unprompted-and-some-find-it-creepy/" class="loop-card__title-link">ChatGPT is referring to users by their names unprompted, and some find it &#8216;creepy&#8217;</a>
+			</h3>
+		
+		
+					<div class="loop-card__meta">
+													<ul class="loop-card__meta-item loop-card__author-list">
+													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
+											</ul>
+																			<time datetime="2025-04-18T12:31:25-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
+	2 days ago</time>
+																								</div>
+		
+		
+			</div>
+
+		</div>
+</div>
+
+	</li><li class="wp-block-post post-2995889 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-openai">
+	<div class="wp-block-techcrunch-card wp-block-null">
+
+	
+	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+
+			<figure class="loop-card__figure">
+			<img width="563" height="375" src="https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?w=563" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="This photograph taken in Mulhouse, eastern France on October 19, 2023, shows figurines next to the ChatGPT logo. (Photo by SEBASTIEN BOZON/AFP via Getty Images)" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg 1717w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=1200,800 1200w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=1280,853 1280w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=430,286 430w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=1536,1023 1536w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=563,375 563w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=926,617 926w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1733837014-e.jpg?resize=708,472 708w" sizes="auto, (max-width: 563px) 100vw, 563px" />		</figure>
+	
+	<div class="loop-card__content">
+
+		
+					<div class="loop-card__cat-group">
+				
+				
+															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
+												</div>
+		
+					<h3 class="loop-card__title">
+
+				
+				<a data-destinationLink="https://techcrunch.com/2025/04/18/chatgpt-will-now-use-its-memory-to-personalize-web-searches/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/chatgpt-will-now-use-its-memory-to-personalize-web-searches/" class="loop-card__title-link">ChatGPT will now use its &#8216;memory&#8217; to personalize web searches</a>
+			</h3>
+		
+		
+					<div class="loop-card__meta">
+													<ul class="loop-card__meta-item loop-card__author-list">
+													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
+											</ul>
+																			<time datetime="2025-04-18T09:14:11-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
+	2 days ago</time>
+																								</div>
+		
+		
+			</div>
+
+		</div>
+</div>
+
+	</li><li class="wp-block-post post-2995878 tc_podcast type-tc_podcast status-publish has-post-thumbnail hentry category-artificial-intelligence category-startups category-transportation tag-equity-podcast tag-figma tag-gpt tag-ipo tag-kodiak tag-openai tag-spac tc_podcast_type-equity">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
 	<div class="loop-card loop-card--post-type-tc_podcast loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
 
 			<figure class="loop-card__figure">
-			<img width="563" height="375" src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?w=563" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Paper craft illustration of male hand and increase chart. Bull market concept." decoding="async" fetchpriority="high" srcset="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg 2121w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1200,800 1200w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1280,853 1280w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1536,1024 1536w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=2048,1365 2048w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=563,375 563w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=926,617 926w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=708,472 708w" sizes="(max-width: 563px) 100vw, 563px" />		</figure>
+			<img width="563" height="375" src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?w=563" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Paper craft illustration of male hand and increase chart. Bull market concept." decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg 2121w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1200,800 1200w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1280,853 1280w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=1536,1024 1536w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=2048,1365 2048w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=563,375 563w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=926,617 926w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-1317304421.jpg?resize=708,472 708w" sizes="auto, (max-width: 563px) 100vw, 563px" />		</figure>
 	
 	<div class="loop-card__content">
 
@@ -842,7 +1052,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/anthony-ha/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/anthony-ha/">Anthony Ha</a></li>
 											</ul>
 																			<time datetime="2025-04-18T08:07:50-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	48 minutes ago</time>
+	2 days ago</time>
 																								</div>
 		
 		
@@ -851,14 +1061,26 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995836 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups tag-anysphere tag-codeium tag-mergers-and-acquisitions tag-openai">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2995836 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups tag-mergers-and-acquisitions tag-openai tag-anysphere tag-codeium">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
 	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
 
 			<figure class="loop-card__figure">
-			<img width="562" height="375" src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=562" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="OpenAI ChatGPT website displayed on a laptop screen is seen in this illustration photo." decoding="async" srcset="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg 1024w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=680,454 680w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=800,534 800w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=668,446 668w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=562,375 562w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=925,617 925w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=708,472 708w" sizes="(max-width: 562px) 100vw, 562px" />		</figure>
+			<img width="562" height="375" src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=562" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="OpenAI ChatGPT website displayed on a laptop screen is seen in this illustration photo." decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg 1024w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=680,454 680w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=800,534 800w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=668,446 668w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=562,375 562w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=925,617 925w, https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?resize=708,472 708w" sizes="auto, (max-width: 562px) 100vw, 562px" />		</figure>
 	
 	<div class="loop-card__content">
 
@@ -881,7 +1103,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/marina-temkin/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/marina-temkin/">Marina Temkin</a></li>
 											</ul>
 																			<time datetime="2025-04-17T20:01:08-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	13 hours ago</time>
+	2 days ago</time>
 																								</div>
 		
 		
@@ -890,26 +1112,14 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2995744 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-enterprise tag-openai">
+	</li><li class="wp-block-post post-2995744 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-enterprise tag-openai">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
 	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
 
 			<figure class="loop-card__figure">
-			<img width="668" height="375" src="https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?w=668" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="OpenAI logo with spiraling pastel colors (Image Credits: Bryce Durbin / TechCrunch)" decoding="async" srcset="https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg 1920w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=150,84 150w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=768,432 768w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=680,383 680w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1200,675 1200w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1280,720 1280w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=430,242 430w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=720,405 720w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=900,506 900w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=800,450 800w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1536,864 1536w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=668,375 668w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1097,617 1097w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=708,398 708w" sizes="(max-width: 668px) 100vw, 668px" />		</figure>
+			<img width="668" height="375" src="https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?w=668" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="OpenAI logo with spiraling pastel colors (Image Credits: Bryce Durbin / TechCrunch)" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg 1920w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=150,84 150w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=768,432 768w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=680,383 680w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1200,675 1200w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1280,720 1280w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=430,242 430w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=720,405 720w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=900,506 900w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=800,450 800w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1536,864 1536w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=668,375 668w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=1097,617 1097w, https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-teal.jpg?resize=708,398 708w" sizes="auto, (max-width: 668px) 100vw, 668px" />		</figure>
 	
 	<div class="loop-card__content">
 
@@ -932,7 +1142,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-17T13:40:19-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	19 hours ago</time>
+	2 days ago</time>
 																								</div>
 		
 		
@@ -941,7 +1151,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995685 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-government-policy category-startups tag-exclusive tag-hence-ai tag-risk-management">
+	</li><li class="wp-block-post post-2995685 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-government-policy category-startups tag-exclusive tag-risk-management tag-hence-ai">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -971,7 +1181,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/rebecca-bellan/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/rebecca-bellan/">Rebecca Bellan</a></li>
 											</ul>
 																			<time datetime="2025-04-17T12:58:35-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	20 hours ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1010,7 +1220,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/julie-bort/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/julie-bort/">Julie Bort</a></li>
 											</ul>
 																			<time datetime="2025-04-17T12:33:28-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	20 hours ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1019,7 +1229,19 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995511 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-gemini tag-google">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2995511 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-gemini tag-google">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1049,7 +1271,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-17T11:53:20-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	21 hours ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1058,19 +1280,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2995607 post type-post status-publish format-standard has-post-thumbnail hentry category-startups category-venture category-artificial-intelligence tag-chatbot-arena">
+	</li><li class="wp-block-post post-2995607 post type-post status-publish format-standard has-post-thumbnail hentry category-startups category-venture category-artificial-intelligence tag-chatbot-arena">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1102,7 +1312,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-17T11:02:56-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	22 hours ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1143,7 +1353,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/rebecca-szkutak/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/rebecca-szkutak/">Rebecca Szkutak</a></li>
 											</ul>
 																			<time datetime="2025-04-17T08:10:48-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	1 day ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1152,7 +1362,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995399 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-social tag-chatgpt tag-privacy tag-reverse-location-search tag-social-media tag-viral">
+	</li><li class="wp-block-post post-2995399 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-social tag-social-media tag-privacy tag-viral tag-chatgpt tag-reverse-location-search">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1182,7 +1392,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-17T08:06:27-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	1 day ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1191,7 +1401,19 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995390 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-grok tag-xai">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2995390 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-grok tag-xai">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1221,7 +1443,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T19:11:15-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1230,19 +1452,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2995300 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-government-policy tag-deepseek tag-in-brief tag-nvidia">
+	</li><li class="wp-block-post post-2995300 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-government-policy tag-deepseek tag-in-brief tag-nvidia">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1274,7 +1484,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/maxwell-zeff/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/maxwell-zeff/">Maxwell Zeff</a></li>
 											</ul>
 																			<time datetime="2025-04-16T15:40:08-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1313,7 +1523,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/maxwell-zeff/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/maxwell-zeff/">Maxwell Zeff</a></li>
 											</ul>
 																			<time datetime="2025-04-16T14:12:28-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	3 days ago</time>
 																								</div>
 		
 		
@@ -1352,7 +1562,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/marina-temkin/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/marina-temkin/">Marina Temkin</a></li>
 											</ul>
 																			<time datetime="2025-04-16T12:50:51-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1361,7 +1571,19 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2995053 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-openai">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2995053 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-openai">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1391,7 +1613,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T11:14:52-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1400,19 +1622,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2994599 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-openai tag-reasoning-models">
+	</li><li class="wp-block-post post-2994599 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-openai tag-reasoning-models">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1442,7 +1652,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/maxwell-zeff/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/maxwell-zeff/">Maxwell Zeff</a></li>
 											</ul>
 																			<time datetime="2025-04-16T10:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1481,7 +1691,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T10:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1520,7 +1730,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/marina-temkin/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/marina-temkin/">Marina Temkin</a></li>
 											</ul>
 																			<time datetime="2025-04-16T08:50:55-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1529,7 +1739,19 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2994826 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-bitnet tag-microsoft">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2994826 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-bitnet tag-microsoft">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1559,7 +1781,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T08:48:27-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1568,19 +1790,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2994583 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups tag-ai tag-deck tag-infinity-ventures">
+	</li><li class="wp-block-post post-2994583 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups tag-ai tag-deck tag-infinity-ventures">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1610,7 +1820,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/mary-ann-azevedo/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/mary-ann-azevedo/">Mary Ann Azevedo</a></li>
 											</ul>
 																			<time datetime="2025-04-16T08:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1649,7 +1859,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/techcrunch-events/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/techcrunch-events/">TechCrunch Events</a></li>
 											</ul>
 																			<time datetime="2025-04-16T07:30:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1688,7 +1898,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/lauren-forristal/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/lauren-forristal/">Lauren Forristal</a></li>
 											</ul>
 																			<time datetime="2025-04-16T07:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1697,7 +1907,19 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li><li class="wp-block-post post-2994788 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-enterprise category-government-policy tag-advanced-micro-devices tag-ai-chips tag-amd">
+	</li>
+<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+
+<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
+	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
+	</div>
+</div>
+
+<li class="wp-block-post post-2994788 post type-post status-publish format-standard has-post-thumbnail hentry category-enterprise category-artificial-intelligence category-government-policy tag-amd tag-ai-chips tag-advanced-micro-devices">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1727,7 +1949,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T06:09:52-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1736,19 +1958,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 		</div>
 </div>
 
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2994296 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-ai-censorship tag-ai-chatbots tag-grok tag-llama tag-openai tag-speechmap">
+	</li><li class="wp-block-post post-2994296 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-ai-censorship tag-ai-chatbots tag-grok tag-llama tag-openai tag-speechmap">
 	<div class="wp-block-techcrunch-card wp-block-null">
 
 	
@@ -1778,7 +1988,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
 											</ul>
 																			<time datetime="2025-04-16T05:30:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1817,7 +2027,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/ingrid-lunden/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/ingrid-lunden/">Ingrid Lunden</a></li>
 											</ul>
 																			<time datetime="2025-04-16T04:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -1856,214 +2066,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 													<li><a data-destinationLink="https://techcrunch.com/author/jagmeet-singh/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/jagmeet-singh/">Jagmeet Singh</a></li>
 											</ul>
 																			<time datetime="2025-04-16T03:00:00-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	2 days ago</time>
-																								</div>
-		
-		
-			</div>
-
-		</div>
-</div>
-
-	</li><li class="wp-block-post post-2994670 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-xai tag-grok">
-	<div class="wp-block-techcrunch-card wp-block-null">
-
-	
-	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-
-			<figure class="loop-card__figure">
-			<img width="563" height="375" src="https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?w=563" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="The xAI Grok AI logo" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg 6759w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=1200,800 1200w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=1280,853 1280w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=1536,1024 1536w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=2048,1365 2048w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=563,375 563w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=926,617 926w, https://techcrunch.com/wp-content/uploads/2023/11/xAI-Grok-GettyImages-1765893916.jpeg?resize=708,472 708w" sizes="auto, (max-width: 563px) 100vw, 563px" />		</figure>
-	
-	<div class="loop-card__content">
-
-		
-					<div class="loop-card__cat-group">
-				
-				
-															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
-												</div>
-		
-					<h3 class="loop-card__title">
-
-				
-				<a data-destinationLink="https://techcrunch.com/2025/04/15/grok-gains-a-canvas-like-tool-for-creating-docs-and-apps/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/grok-gains-a-canvas-like-tool-for-creating-docs-and-apps/" class="loop-card__title-link">Grok gains a canvas-like tool for creating docs and apps</a>
-			</h3>
-		
-		
-					<div class="loop-card__meta">
-													<ul class="loop-card__meta-item loop-card__author-list">
-													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
-											</ul>
-																			<time datetime="2025-04-15T19:30:28-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	3 days ago</time>
-																								</div>
-		
-		
-			</div>
-
-		</div>
-</div>
-
-	</li>
-<div class="ad-unit ad-unit--desktop ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-dt-native-river" data-unitcode="us_tc_ros_dt_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-
-<div class="ad-unit ad-unit--mobile ad-unit--native wp-block-tc-ads-ad-slot">
-	<div class="ad-unit__ad" id="us-tc-ros-mw-native-river" data-unitcode="us_tc_ros_mw_native_river" data-sizes="[&quot;fluid&quot;]" style="min-height:0px;min-width:0px;">
-	</div>
-</div>
-
-<li class="wp-block-post post-2994517 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-enterprise tag-ai-chips tag-deepseek tag-nvidia tag-semiconductor">
-	<div class="wp-block-techcrunch-card wp-block-null">
-
-	
-	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-
-			<figure class="loop-card__figure">
-			<img width="532" height="375" src="https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?w=532" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Nvidia" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg 1920w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=150,106 150w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=300,211 300w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=768,541 768w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=680,479 680w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=1200,846 1200w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=1280,902 1280w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=430,303 430w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=720,507 720w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=900,634 900w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=800,564 800w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=1536,1082 1536w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=668,471 668w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=532,375 532w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=876,617 876w, https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=708,499 708w" sizes="auto, (max-width: 532px) 100vw, 532px" />		</figure>
-	
-	<div class="loop-card__content">
-
-		
-					<div class="loop-card__cat-group">
-				
-				
-															<a data-destinationLink="https://techcrunch.com/category/enterprise/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/enterprise/" class="loop-card__cat">Enterprise</a>
-												</div>
-		
-					<h3 class="loop-card__title">
-
-				
-				<a data-destinationLink="https://techcrunch.com/2025/04/15/nvidia-h20-chip-exports-hit-with-license-requirement-by-us-government/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/nvidia-h20-chip-exports-hit-with-license-requirement-by-us-government/" class="loop-card__title-link">Nvidia H20 chip exports hit with license requirement by US government</a>
-			</h3>
-		
-		
-					<div class="loop-card__meta">
-													<ul class="loop-card__meta-item loop-card__author-list">
-													<li><a data-destinationLink="https://techcrunch.com/author/rebecca-szkutak/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/rebecca-szkutak/">Rebecca Szkutak</a></li>
-											</ul>
-																			<time datetime="2025-04-15T15:24:49-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	3 days ago</time>
-																								</div>
-		
-		
-			</div>
-
-		</div>
-</div>
-
-	</li><li class="wp-block-post post-2994442 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-fundraising tag-y-combinator tag-ai tag-cherry-ventures tag-voice-agents">
-	<div class="wp-block-techcrunch-card wp-block-null">
-
-	
-	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-
-			<figure class="loop-card__figure">
-			<img width="600" height="375" src="https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?w=600" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Telli team" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg 1280w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=150,94 150w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=300,188 300w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=768,480 768w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=680,425 680w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=1200,750 1200w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=430,269 430w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=720,450 720w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=900,563 900w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=800,500 800w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=668,418 668w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=600,375 600w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=987,617 987w, https://techcrunch.com/wp-content/uploads/2025/04/Telli-20250408-Image-copyright-BetoRuizAlonso-info@betoruizalonso.com-023.jpg?resize=708,443 708w" sizes="auto, (max-width: 600px) 100vw, 600px" />		</figure>
-	
-	<div class="loop-card__content">
-
-		
-					<div class="loop-card__cat-group">
-				
-				
-															<a data-destinationLink="https://techcrunch.com/category/fundraising/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/fundraising/" class="loop-card__cat">Fundraising</a>
-												</div>
-		
-					<h3 class="loop-card__title">
-
-				
-				<a data-destinationLink="https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-ai-voice-agents/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/telli-a-yc-alum-raises-pre-seed-funding-for-its-ai-voice-agents/" class="loop-card__title-link">Telli, a YC alum, raises pre-seed funding for its AI voice agents</a>
-			</h3>
-		
-		
-					<div class="loop-card__meta">
-													<ul class="loop-card__meta-item loop-card__author-list">
-													<li><a data-destinationLink="https://techcrunch.com/author/mike-butcher/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/mike-butcher/">Mike Butcher</a></li>
-											</ul>
-																			<time datetime="2025-04-15T14:06:40-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	3 days ago</time>
-																								</div>
-		
-		
-			</div>
-
-		</div>
-</div>
-
-	</li><li class="wp-block-post post-2994358 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-openai tag-safety">
-	<div class="wp-block-techcrunch-card wp-block-null">
-
-	
-	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-
-			<figure class="loop-card__figure">
-			<img width="562" height="375" src="https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?w=562" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="OpenAI CEO Sam Altman gestures during a session of the World Economic Forum (WEF) meeting in Davos on January 18, 2024. (Photo by FABRICE COFFRINI/AFP via Getty Images)" decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg 2500w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=150,100 150w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=300,200 300w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=768,512 768w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=680,453 680w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=1200,800 1200w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=1280,854 1280w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=430,287 430w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=720,480 720w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=900,600 900w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=800,533 800w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=1536,1024 1536w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=2048,1366 2048w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=668,445 668w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=562,375 562w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=925,617 925w, https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1934195443-e.jpg?resize=708,472 708w" sizes="auto, (max-width: 562px) 100vw, 562px" />		</figure>
-	
-	<div class="loop-card__content">
-
-		
-					<div class="loop-card__cat-group">
-				
-				
-															<a data-destinationLink="https://techcrunch.com/category/artificial-intelligence/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/artificial-intelligence/" class="loop-card__cat">AI</a>
-												</div>
-		
-					<h3 class="loop-card__title">
-
-				
-				<a data-destinationLink="https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/openai-says-it-may-adjust-its-safety-requirements-if-a-rival-lab-releases-high-risk-ai/" class="loop-card__title-link">OpenAI may &#8216;adjust&#8217; its safeguards if rivals release &#8216;high-risk&#8217; AI</a>
-			</h3>
-		
-		
-					<div class="loop-card__meta">
-													<ul class="loop-card__meta-item loop-card__author-list">
-													<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
-											</ul>
-																			<time datetime="2025-04-15T12:50:03-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	3 days ago</time>
-																								</div>
-		
-		
-			</div>
-
-		</div>
-</div>
-
-	</li><li class="wp-block-post post-2994310 post type-post status-publish format-standard has-post-thumbnail hentry category-tc category-startups category-artificial-intelligence tag-cease-and-desist tag-figma tag-vibe-coding">
-	<div class="wp-block-techcrunch-card wp-block-null">
-
-	
-	<div class="loop-card loop-card--post-type-post loop-card--default loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-
-			<figure class="loop-card__figure">
-			<img width="668" height="375" src="https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?w=668" class="attachment-card-block-16x9 size-card-block-16x9 wp-post-image" alt="Dylan Field, CEO at Figma on the TechCrunch Disrupt stage in San Francisco on October 20, 2022." decoding="async" loading="lazy" srcset="https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg 2000w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=150,84 150w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=300,169 300w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=768,432 768w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=680,383 680w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=1200,675 1200w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=1280,720 1280w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=430,242 430w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=720,405 720w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=900,506 900w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=800,450 800w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=1536,864 1536w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=668,375 668w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=1097,617 1097w, https://techcrunch.com/wp-content/uploads/2022/10/TechCrunch-Disrupt-Haje-Kamps-784-e1676465486131.jpg?resize=708,398 708w" sizes="auto, (max-width: 668px) 100vw, 668px" />		</figure>
-	
-	<div class="loop-card__content">
-
-		
-					<div class="loop-card__cat-group">
-				
-				
-															<a data-destinationLink="https://techcrunch.com/category/startups/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/category/startups/" class="loop-card__cat">Startups</a>
-												</div>
-		
-					<h3 class="loop-card__title">
-
-				
-				<a data-destinationLink="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/figma-sent-a-cease-and-desist-letter-to-lovable-over-the-term-dev-mode/" class="loop-card__title-link">Figma sent a cease-and-desist letter to Lovable over the term &#8216;Dev Mode&#8217;</a>
-			</h3>
-		
-		
-					<div class="loop-card__meta">
-													<ul class="loop-card__meta-item loop-card__author-list">
-													<li><a data-destinationLink="https://techcrunch.com/author/julie-bort/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/julie-bort/">Julie Bort</a></li>
-											</ul>
-																			<time datetime="2025-04-15T12:17:40-07:00" class="loop-card__meta-item loop-card__time wp-block-tc23-post-time-ago">
-	3 days ago</time>
+	4 days ago</time>
 																								</div>
 		
 		
@@ -2110,12 +2113,91 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 </div>
 <div class="wp-block-query is-layout-flow wp-block-query-is-layout-flow">
 <ul class="wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow">
+<li class="wp-block-post post-2996211 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-startups category-tc tag-ai-agents tag-epoch-ai">
+<div class="wp-block-techcrunch-card wp-block-null">
+<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+<div class="loop-card__content">
+<h3 class="loop-card__title">
+<p id="speakable-summary">				<a data-destinationLink="https://techcrunch.com/2025/04/19/famed-ai-researcher-launches-controversial-startup-to-replace-all-human-workers-everywhere/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/19/famed-ai-researcher-launches-controversial-startup-to-replace-all-human-workers-everywhere/" class="loop-card__title-link">Famed AI researcher launches controversial startup to replace all human workers everywhere</a><br />
+			</h3>
+<div class="loop-card__meta">
+<ul class="loop-card__meta-item loop-card__author-list">
+<li><a data-destinationLink="https://techcrunch.com/author/julie-bort/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/julie-bort/">Julie Bort</a></li>
+</ul></div>
+</p></div>
+</p></div>
+</div>
+</li>
+<li class="wp-block-post post-2995543 post type-post status-publish format-standard has-post-thumbnail hentry category-social tag-facebook tag-instagram tag-mark-zuckerberg tag-meta">
+<div class="wp-block-techcrunch-card wp-block-null">
+<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+<div class="loop-card__content">
+<h3 class="loop-card__title">
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/19/read-what-mark-zuckerberg-and-facebook-execs-said-about-instagram-before-buying-it/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/19/read-what-mark-zuckerberg-and-facebook-execs-said-about-instagram-before-buying-it/" class="loop-card__title-link">Read what Mark Zuckerberg and Facebook execs said about Instagram before buying it</a><br />
+			</h3>
+<div class="loop-card__meta">
+<ul class="loop-card__meta-item loop-card__author-list">
+<li><a data-destinationLink="https://techcrunch.com/author/sarah-perez/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/sarah-perez/">Sarah Perez</a></li>
+<li><a data-destinationLink="https://techcrunch.com/author/aisha-malik/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/aisha-malik/">Aisha Malik</a></li>
+<li><a data-destinationLink="https://techcrunch.com/author/lauren-forristal/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/lauren-forristal/">Lauren Forristal</a></li>
+</ul></div>
+</p></div>
+</p></div>
+</div>
+</li>
+<li class="wp-block-post post-2607662 post type-post status-publish format-standard has-post-thumbnail hentry category-startups category-venture tag-evergreens tag-layoffs tag-tech-layoffs tag-techcrunch-2023-recap">
+<div class="wp-block-techcrunch-card wp-block-null">
+<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+<div class="loop-card__content">
+<h3 class="loop-card__title">
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/18/tech-layoffs-2025-list/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/tech-layoffs-2025-list/" class="loop-card__title-link">A comprehensive list of 2025 tech layoffs</a><br />
+			</h3>
+<div class="loop-card__meta">
+<ul class="loop-card__meta-item loop-card__author-list">
+<li><a data-destinationLink="https://techcrunch.com/author/cody-corrall/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/cody-corrall/">Cody Corrall</a></li>
+<li><a data-destinationLink="https://techcrunch.com/author/alyssa-stringer/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/alyssa-stringer/">Alyssa Stringer</a></li>
+<li><a data-destinationLink="https://techcrunch.com/author/kate-park/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kate-park/">Kate Park</a></li>
+</ul></div>
+</p></div>
+</p></div>
+</div>
+</li>
+<li class="wp-block-post post-2995658 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-hallucinations tag-openai">
+<div class="wp-block-techcrunch-card wp-block-null">
+<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+<div class="loop-card__content">
+<h3 class="loop-card__title">
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/" class="loop-card__title-link">OpenAI&#8217;s new reasoning AI models hallucinate more</a><br />
+			</h3>
+<div class="loop-card__meta">
+<ul class="loop-card__meta-item loop-card__author-list">
+<li><a data-destinationLink="https://techcrunch.com/author/maxwell-zeff/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/maxwell-zeff/">Maxwell Zeff</a></li>
+</ul></div>
+</p></div>
+</p></div>
+</div>
+</li>
+<li class="wp-block-post post-2995785 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-chatgpt tag-openai">
+<div class="wp-block-techcrunch-card wp-block-null">
+<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
+<div class="loop-card__content">
+<h3 class="loop-card__title">
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/18/chatgpt-is-referring-to-users-by-their-names-unprompted-and-some-find-it-creepy/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/18/chatgpt-is-referring-to-users-by-their-names-unprompted-and-some-find-it-creepy/" class="loop-card__title-link">ChatGPT is referring to users by their names unprompted, and some find it &#8216;creepy&#8217;</a><br />
+			</h3>
+<div class="loop-card__meta">
+<ul class="loop-card__meta-item loop-card__author-list">
+<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
+</ul></div>
+</p></div>
+</p></div>
+</div>
+</li>
 <li class="wp-block-post post-2995800 post type-post status-publish format-standard has-post-thumbnail hentry category-startups tag-first-round-capital tag-theseus tag-y-combinator tag-defense-tech tag-exclusive">
 <div class="wp-block-techcrunch-card wp-block-null">
 <div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
 <div class="loop-card__content">
 <h3 class="loop-card__title">
-<p id="speakable-summary">				<a data-destinationLink="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/" class="loop-card__title-link">Defense tech Theseus landed Y Combinator, the US Special Forces, and $4.3M from a tweet</a><br />
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/" class="loop-card__title-link">Defense tech Theseus landed Y Combinator, the US Special Forces, and $4.3M from a tweet</a><br />
 			</h3>
 <div class="loop-card__meta">
 <ul class="loop-card__meta-item loop-card__author-list">
@@ -2125,91 +2207,16 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 </p></div>
 </div>
 </li>
-<li class="wp-block-post post-2995744 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-enterprise tag-openai">
+<li class="wp-block-post post-2994600 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-open-source tag-openai">
 <div class="wp-block-techcrunch-card wp-block-null">
 <div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
 <div class="loop-card__content">
 <h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/17/openai-launches-flex-processing-for-cheaper-slower-ai-tasks/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/17/openai-launches-flex-processing-for-cheaper-slower-ai-tasks/" class="loop-card__title-link">OpenAI launches Flex processing for cheaper, slower AI tasks</a><br />
+<p>				<a data-destinationLink="https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals/" class="loop-card__title-link">OpenAI debuts Codex CLI, an open source coding tool for terminals</a><br />
 			</h3>
 <div class="loop-card__meta">
 <ul class="loop-card__meta-item loop-card__author-list">
 <li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
-</ul></div>
-</p></div>
-</p></div>
-</div>
-</li>
-<li class="wp-block-post post-2995399 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence category-social tag-chatgpt tag-privacy tag-reverse-location-search tag-social-media tag-viral">
-<div class="wp-block-techcrunch-card wp-block-null">
-<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-<div class="loop-card__content">
-<h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/17/the-latest-viral-chatgpt-trend-is-doing-reverse-location-search-from-photos/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/17/the-latest-viral-chatgpt-trend-is-doing-reverse-location-search-from-photos/" class="loop-card__title-link">The latest viral ChatGPT trend is doing &#8216;reverse location search&#8217; from photos</a><br />
-			</h3>
-<div class="loop-card__meta">
-<ul class="loop-card__meta-item loop-card__author-list">
-<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
-</ul></div>
-</p></div>
-</p></div>
-</div>
-</li>
-<li class="wp-block-post post-2995487 post type-post status-publish format-standard has-post-thumbnail hentry category-government-policy tag-google tag-antitrust tag-lawsuit tag-ad-tech">
-<div class="wp-block-techcrunch-card wp-block-null">
-<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-<div class="loop-card__content">
-<h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/17/judge-rules-google-illegally-monopolized-ad-tech-opening-door-to-potential-breakup/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/17/judge-rules-google-illegally-monopolized-ad-tech-opening-door-to-potential-breakup/" class="loop-card__title-link">Judge rules Google illegally monopolized adtech, opening door to potential breakup </a><br />
-			</h3>
-<div class="loop-card__meta">
-<ul class="loop-card__meta-item loop-card__author-list">
-<li><a data-destinationLink="https://techcrunch.com/author/rebecca-bellan/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/rebecca-bellan/">Rebecca Bellan</a></li>
-</ul></div>
-</p></div>
-</p></div>
-</div>
-</li>
-<li class="wp-block-post post-2995334 post type-post status-publish format-standard has-post-thumbnail hentry category-startups category-biotech-health category-government-policy tag-healthcare tag-in-brief tag-j-d-vance tag-medicare tag-peter-thiel">
-<div class="wp-block-techcrunch-card wp-block-null">
-<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio loop-card--brief">
-<div class="loop-card__content">
-<h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/16/chapter-a-medicare-startup-with-links-to-vance-thiel-and-ramaswamy-just-raised-a-round-at-1-5b-valuation/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/16/chapter-a-medicare-startup-with-links-to-vance-thiel-and-ramaswamy-just-raised-a-round-at-1-5b-valuation/" class="loop-card__title-link">Chapter, a Medicare startup with links to Vance, Thiel, and Ramaswamy, just raised a round at $1.5B valuation</a><br />
-			</h3>
-<div class="loop-card__meta">
-<ul class="loop-card__meta-item loop-card__author-list">
-<li><a data-destinationLink="https://techcrunch.com/author/marina-temkin/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/marina-temkin/">Marina Temkin</a></li>
-</ul></div>
-</p></div>
-</p></div>
-</div>
-</li>
-<li class="wp-block-post post-2994826 post type-post status-publish format-standard has-post-thumbnail hentry category-artificial-intelligence tag-bitnet tag-microsoft">
-<div class="wp-block-techcrunch-card wp-block-null">
-<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-<div class="loop-card__content">
-<h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/16/microsoft-researchers-say-theyve-developed-a-hyper-efficient-ai-model-that-can-run-on-cpus/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/16/microsoft-researchers-say-theyve-developed-a-hyper-efficient-ai-model-that-can-run-on-cpus/" class="loop-card__title-link">Microsoft researchers say they&#8217;ve developed a hyper-efficient AI model that can run on CPUs</a><br />
-			</h3>
-<div class="loop-card__meta">
-<ul class="loop-card__meta-item loop-card__author-list">
-<li><a data-destinationLink="https://techcrunch.com/author/kyle-wiggers/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/kyle-wiggers/">Kyle Wiggers</a></li>
-</ul></div>
-</p></div>
-</p></div>
-</div>
-</li>
-<li class="wp-block-post post-2993384 post type-post status-publish format-standard has-post-thumbnail hentry category-security tag-android tag-cybersecurity tag-forensics tag-google tag-law-enforcement tag-privacy">
-<div class="wp-block-techcrunch-card wp-block-null">
-<div class="loop-card loop-card--post-type-post loop-card--list loop-card--horizontal loop-card--wide loop-card--force-storyline-aspect-ratio">
-<div class="loop-card__content">
-<h3 class="loop-card__title">
-<p>				<a data-destinationLink="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" data-event="recirculation" data-module="Query" href="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/" class="loop-card__title-link">For security, Android phones will now auto-reboot after three days</a><br />
-			</h3>
-<div class="loop-card__meta">
-<ul class="loop-card__meta-item loop-card__author-list">
-<li><a data-destinationLink="https://techcrunch.com/author/lorenzo-franceschi-bicchierai/" data-event="recirculation" data-module="Query" class="loop-card__author" href="https://techcrunch.com/author/lorenzo-franceschi-bicchierai/">Lorenzo Franceschi-Bicchierai</a></li>
 </ul></div>
 </p></div>
 </p></div>
@@ -2300,7 +2307,7 @@ class="wp-block-techcrunch-sign-in"data-wp-bind--aria-hidden="state.isSearchOpen
 
 
 
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><nav style="font-style:normal;font-weight:400;" class="has-text-color has-white-color has-body-3-font-size  is-vertical wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-5 wp-block-navigation-is-layout-flex" aria-label="Footer – Trending Topics: Col3"><ul style="font-style:normal;font-weight:400;" class="wp-block-navigation__container has-text-color has-white-color has-body-3-font-size  is-vertical wp-block-navigation has-body-3-font-size"><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="GTC 2025" data-destinationLink="https://techcrunch.com/storyline/nvidia-gtc-2025-live-updates-blackwell-ultra-next-gen-rubin-chip-architecture-and-much-more/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/storyline/nvidia-gtc-2025-live-updates-blackwell-ultra-next-gen-rubin-chip-architecture-and-much-more/"><span class="wp-block-navigation-item__label">GTC 2025</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Google Buys Wiz" data-destinationLink="https://techcrunch.com/2025/03/18/google-is-buying-wiz-for-32b-to-beef-up-in-cloud-security" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/03/18/google-is-buying-wiz-for-32b-to-beef-up-in-cloud-security"><span class="wp-block-navigation-item__label">Google Buys Wiz</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Claude Voice Mode" data-destinationLink="https://techcrunch.com/2025/03/18/anthropic-is-reportedly-prepping-a-voice-mode-for-claude/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/03/18/anthropic-is-reportedly-prepping-a-voice-mode-for-claude/"><span class="wp-block-navigation-item__label">Claude Voice Mode</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Skype Shutdown" data-destinationLink="https://techcrunch.com/2025/03/15/skype-shuts-down-in-may-these-are-the-best-alternatives/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/03/15/skype-shuts-down-in-may-these-are-the-best-alternatives/"><span class="wp-block-navigation-item__label">Skype Shutdown</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Meta Llama" data-destinationLink="https://techcrunch.com/2025/03/18/mark-zuckerberg-says-that-metas-llama-models-have-hit-1b-downloads/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/03/18/mark-zuckerberg-says-that-metas-llama-models-have-hit-1b-downloads/"><span class="wp-block-navigation-item__label">Meta Llama</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Tech Layoffs" data-destinationLink="https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/"><span class="wp-block-navigation-item__label">Tech Layoffs</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="ChatGPT" data-destinationLink="https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/"><span class="wp-block-navigation-item__label">ChatGPT</span></a></li></ul></nav></div>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><nav style="font-style:normal;font-weight:400;" class="has-text-color has-white-color has-body-3-font-size  is-vertical wp-block-navigation is-layout-flex wp-container-core-navigation-is-layout-5 wp-block-navigation-is-layout-flex" aria-label="Footer – Trending Topics: Col3"><ul style="font-style:normal;font-weight:400;" class="wp-block-navigation__container has-text-color has-white-color has-body-3-font-size  is-vertical wp-block-navigation has-body-3-font-size"><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="OpenAI" data-destinationLink="https://techcrunch.com/2025/04/17/openai-pursued-cursor-maker-before-entering-into-talks-to-buy-windsurf-for-3b/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/04/17/openai-pursued-cursor-maker-before-entering-into-talks-to-buy-windsurf-for-3b/"><span class="wp-block-navigation-item__label">OpenAI</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Theseus" data-destinationLink="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/04/17/defense-tech-theseus-landed-y-combinator-the-us-special-forces-and-4-3m-from-a-tweet/"><span class="wp-block-navigation-item__label">Theseus</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="ChatGPT" data-destinationLink="https://techcrunch.com/2025/04/17/the-latest-viral-chatgpt-trend-is-doing-reverse-location-search-from-photos/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/04/17/the-latest-viral-chatgpt-trend-is-doing-reverse-location-search-from-photos/"><span class="wp-block-navigation-item__label">ChatGPT</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Android Reboot" data-destinationLink="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/?mrfhud=true" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/04/15/for-security-android-phones-will-now-auto-reboot-after-three-days/?mrfhud=true"><span class="wp-block-navigation-item__label">Android Reboot</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Nintendo Switch 2" data-destinationLink="https://techcrunch.com/2025/04/18/the-nintendo-switch-2-will-still-cost-450-in-the-us-despite-tariffs/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/04/18/the-nintendo-switch-2-will-still-cost-450-in-the-us-despite-tariffs/"><span class="wp-block-navigation-item__label">Nintendo Switch 2</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="Tech Layoffs" data-destinationLink="https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/02/28/tech-layoffs-2024-list/"><span class="wp-block-navigation-item__label">Tech Layoffs</span></a></li><li class="has-body-3-font-size wp-block-navigation-item wp-block-navigation-link"><a data-ctaText="ChatGPT" data-destinationLink="https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/" data-event="navigation" class="wp-block-navigation-item__content"  href="https://techcrunch.com/2025/01/28/chatgpt-everything-to-know-about-the-ai-chatbot/"><span class="wp-block-navigation-item__label">ChatGPT</span></a></li></ul></nav></div>
 </div>
 </div>
 </div>
@@ -2368,7 +2375,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script type="text/javascript" src="https://techcrunch.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1744740139j" ></script><script src="https://techcrunch.com/wp-includes/js/dist/api-fetch.min.js?ver=d387b816bc1ed2042e28" id="wp-api-fetch-js"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://techcrunch.com/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "05a9c811d4" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "74c49c2b5f" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://techcrunch.com/wp-admin/admin-ajax.php?action=rest-nonce";
