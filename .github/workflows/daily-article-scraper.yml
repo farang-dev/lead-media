@@ -29,12 +29,12 @@ jobs:
         run: node scripts/test-full-process.js
         env:
           # WordPress.com API Configuration
-          WORDPRESS_API_URL: ${{ secrets.WORDPRESS_API_URL }}
-          WORDPRESS_USERNAME: ${{ secrets.WORDPRESS_USERNAME }}
-          WORDPRESS_API_KEY: ${{ secrets.WORDPRESS_API_KEY }}
-          WORDPRESS_CLIENT_ID: ${{ secrets.WORDPRESS_CLIENT_ID }}
-          WORDPRESS_CLIENT_SECRET: ${{ secrets.WORDPRESS_CLIENT_SECRET }}
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          WORDPRESS_USERNAME: "fuminozawa246"
           WORDPRESS_PASSWORD: ${{ secrets.WORDPRESS_PASSWORD }}
+          # WordPress.com OAuth credentials
+          WORDPRESS_CLIENT_ID: "116326"
+          WORDPRESS_CLIENT_SECRET: ${{ secrets.WORDPRESS_CLIENT_SECRET }}
 
           # OpenRouter API Configuration
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -48,8 +48,8 @@ jobs:
       - name: Generate sitemap
         run: node scripts/generate-sitemap.js
         env:
-          WORDPRESS_API_URL: ${{ secrets.WORDPRESS_API_URL }}
-          NEXT_PUBLIC_SITE_URL: ${{ secrets.NEXT_PUBLIC_SITE_URL }}
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
 
       - name: Commit and push sitemap changes
         run: |
