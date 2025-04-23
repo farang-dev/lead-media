@@ -1,11 +1,11 @@
 // Simple WordPress posting test script
-require('dotenv').config({ path: '.env.local' }); // Try loading from .env.local instead
+require('dotenv').config(); // Load from standard .env file
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 // WordPress credentials
 const WP_API_URL = process.env.WORDPRESS_API_URL;
 const WP_USERNAME = process.env.WORDPRESS_USERNAME;
-const WP_API_KEY = process.env.WORDPRESS_API_KEY;
+const WP_API_KEY = process.env.WORDPRESS_API_KEY || process.env.WORDPRESS_PASSWORD; // Try password as fallback
 
 async function testWordPressPost() {
   // Debug environment variables
