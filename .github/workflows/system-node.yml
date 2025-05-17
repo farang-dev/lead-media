@@ -1,0 +1,52 @@
+name: System Node.js
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      
+      # Skip the actions/setup-node action completely and use the system Node.js
+      - name: Use system Node.js
+        run: |
+          # Print Node.js and npm versions
+          echo "System Node.js version:"
+          node --version
+          echo "System npm version:"
+          npm --version
+      
+      # Install dependencies directly without using npm ci
+      - name: Install dependencies
+        run: |
+          # Install dependencies without creating or using a lock file
+          npm install --no-package-lock
+        
+      # Run the scraper script
+      - name: Run article scraper
+        run: |
+          # Run the scraper script
+          node scripts/test-full-process.js
+        env:
+          # WordPress.com API Configuration
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          WORDPRESS_USERNAME: "fuminozawa246"
+          WORDPRESS_PASSWORD: ${{ secrets.WORDPRESS_PASSWORD }}
+          # WordPress.com OAuth credentials
+          WORDPRESS_CLIENT_ID: "116326"
+          WORDPRESS_CLIENT_SECRET: "cco4aWs2AeuymIIY0pWcFGtqawHWgs7Nl4KeRAVfOyIMM4MwVob0Er7TNtWnusHL"
+          
+          # OpenRouter API Configuration
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          
+          # Site URL
+          NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
+          
+          # Target website to scrape
+          TARGET_WEBSITE: "https://techcrunch.com/category/artificial-intelligence/"
