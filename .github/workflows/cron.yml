@@ -1,0 +1,27 @@
+name: Cron Job
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Running cron job"
+          node -v
+          npm -v
+      - run: npm install
+      - run: node scripts/test-full-process.js
+        env:
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          WORDPRESS_USERNAME: "fuminozawa246"
+          WORDPRESS_PASSWORD: ${{ secrets.WORDPRESS_PASSWORD }}
+          WORDPRESS_CLIENT_ID: "116326"
+          WORDPRESS_CLIENT_SECRET: ${{ secrets.WORDPRESS_CLIENT_SECRET }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
+          TARGET_WEBSITE: https://techcrunch.com/category/artificial-intelligence/
