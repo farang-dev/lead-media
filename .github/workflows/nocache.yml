@@ -1,0 +1,65 @@
+name: No Cache Workflow
+
+on:
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      
+      # Skip the cache completely
+      - name: Set up Node.js
+        run: |
+          echo "Using system Node.js"
+          node --version
+          npm --version
+      
+      # Install dependencies directly
+      - name: Install dependencies
+        run: |
+          npm install
+        
+      - name: Run article scraper and publisher
+        run: node scripts/test-full-process.js
+        env:
+          # WordPress.com API Configuration
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          WORDPRESS_USERNAME: "fuminozawa246"
+          WORDPRESS_PASSWORD: ${{ secrets.WORDPRESS_PASSWORD }}
+          # WordPress.com OAuth credentials
+          WORDPRESS_CLIENT_ID: "116326"
+          WORDPRESS_CLIENT_SECRET: "cco4aWs2AeuymIIY0pWcFGtqawHWgs7Nl4KeRAVfOyIMM4MwVob0Er7TNtWnusHL"
+          
+          # OpenRouter API Configuration
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          
+          # Site URL
+          NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
+          
+          # Target website to scrape (optional)
+          TARGET_WEBSITE: https://techcrunch.com/category/artificial-intelligence/
+      
+      - name: Generate sitemap
+        run: node scripts/generate-sitemap.js
+        env:
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
+          NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
+      
+      - name: Commit and push sitemap changes
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add public/sitemap.xml
+          git commit -m "Update sitemap with latest articles" || echo "No changes to commit"
+          
+          # Use GITHUB_TOKEN for authentication
+          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}
+          git push
