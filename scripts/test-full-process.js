@@ -876,7 +876,12 @@ async function main() {
   console.log('\nProcess completed.');
 }
 
-// Run the main function
-main().catch(error => {
-  console.error('Error in main process:', error);
-});
+// Run the main function if this script is executed directly
+if (require.main === module) {
+  main().catch(error => {
+    console.error('Error in main process:', error);
+  });
+}
+
+// Export the main function for use in other scripts
+module.exports = { main };
