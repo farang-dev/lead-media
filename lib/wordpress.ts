@@ -226,10 +226,10 @@ export async function fetchRelatedPosts(currentPostId: number, count: number = 3
   }
 }
 
-export async function publishPost(title: string, content: string, metaTitle?: string, metaDescription?: string): Promise<boolean> {
+export async function publishPost(title: string, content: string, status: 'publish' | 'draft' = 'publish', metaTitle?: string, metaDescription?: string, language?: 'en' | 'jp'): Promise<Post | null> {
   if (!WP_API_URL) {
     console.error('WordPress API URL not configured');
-    return false;
+    return null;
   }
 
   const WP_USERNAME = process.env.WORDPRESS_USERNAME;
@@ -237,7 +237,7 @@ export async function publishPost(title: string, content: string, metaTitle?: st
 
   if (!WP_USERNAME || !WP_API_KEY) {
     console.error('WordPress credentials not configured');
-    return false;
+    return null;
   }
 
   try {
@@ -255,34 +255,55 @@ export async function publishPost(title: string, content: string, metaTitle?: st
     // Create basic auth header
     const basicAuth = Buffer.from(`${WP_USERNAME}:${WP_API_KEY}`).toString('base64');
 
+    // Prepare data for the post
+    const postPayload: any = {
+      title,
+      content: cleanedContent,
+      status, // Use the status parameter from function arguments
+      meta: {
+        _yoast_wpseo_title: metaTitle || title,
+        _yoast_wpseo_metadesc: metaDescription || cleanedContent.substring(0, 155) + '...'
+      },
+      categories: [] // Initialize categories
+      // tags: [] // Initialize tags if needed, e.g., postPayload.tags = [];
+    };
+
+    // If language is Japanese, assign to a specific category
+    if (language === 'jp') {
+      const jpCategoryIdStr = process.env.WORDPRESS_JP_CATEGORY_ID;
+      if (jpCategoryIdStr) { // Check if the env var is set
+          const jpCategoryId = parseInt(jpCategoryIdStr, 10);
+          if (!isNaN(jpCategoryId)) { // Check if parsing was successful
+              postPayload.categories.push(jpCategoryId);
+          } else {
+              console.warn(`WORDPRESS_JP_CATEGORY_ID ('${jpCategoryIdStr}') is not a valid number. Japanese post may not be categorized correctly.`);
+          }
+      } else {
+          console.warn('WORDPRESS_JP_CATEGORY_ID not set. Japanese post may not be categorized correctly. Consider setting a default category ID or ensuring the .env variable is available.');
+          // Example: postPayload.categories.push(10); // Default Japanese category ID if desired
+      }
+    }
+
     const response = await fetch(`${WP_API_URL}/posts`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Basic ${basicAuth}`
       },
-      body: JSON.stringify({
-        title,
-        content: cleanedContent,
-        status: 'publish',
-        meta: {
-          _yoast_wpseo_title: metaTitle || title,
-          _yoast_wpseo_metadesc: metaDescription || cleanedContent.substring(0, 155) + '...'
-        }
-      })
+      body: JSON.stringify(postPayload)
     });
 
     if (!response.ok) {
       const errorText = await response.text();
       console.error('WordPress API error:', errorText);
-      return false;
+      return null; // Return null on failure
     }
 
-    const postData = await response.json();
-    console.log(`Article posted successfully! Post ID: ${postData.id}`);
-    return true;
+    const createdPost = await response.json(); // API returns the created post object
+    console.log(`Article posted successfully! Post ID: ${createdPost.id}`);
+    return formatPost(createdPost); // Format and return the Post object
   } catch (error) {
     console.error('Error posting to WordPress:', error);
-    return false;
+    return null; // Return null on exception
   }
 }

@@ -69,6 +69,65 @@ export async function generateMetaData(title: string, content: string): Promise<
   }
 }
 
+export async function translateArticleToJapanese(title: string, content: string): Promise<RewrittenArticle> {
+  if (!OPENROUTER_API_KEY) {
+    console.error('OpenRouter API key not configured');
+    return { title, content };
+  }
+
+  console.log(`Translating to Japanese: ${title}`);
+
+  try {
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+        'HTTP-Referer': SITE_URL, 
+        'X-Title': SITE_NAME 
+      },
+      body: JSON.stringify({
+        model: 'anthropic/claude-3-5-sonnet', // Or another model good at Japanese translation
+        messages: [
+          {
+            role: 'system',
+            content: 'You are an expert translator. Translate the given English tech/AI news article (title and content) into natural-sounding Japanese. Maintain the original meaning, tone, and structure. Use HTML tags like <strong> and <em> for emphasis if they are present in the original, otherwise, do not add new ones. Return the translated title on the first line, followed by a blank line, then the translated content. Do not add any extra commentary or notes.'
+          },
+          {
+            role: 'user',
+            content: `Translate the following article to Japanese:\n\nTitle: ${title}\n\nContent:\n${content}`
+          }
+        ]
+      })
+    });
+
+    if (!response.ok) {
+      const errorBody = await response.text();
+      console.error(`OpenRouter API error during translation: ${response.statusText}`, errorBody);
+      throw new Error(`OpenRouter API error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    const translatedText = data.choices[0].message.content;
+
+    const lines = translatedText.split('\n');
+    const translatedTitle = lines[0];
+    const translatedContent = lines.slice(2).join('\n');
+
+    // Generate Japanese meta data (optional, can be a separate step or simplified)
+    // For now, let's use the translated title and a snippet of content
+    const metaTitle = translatedTitle;
+    const metaDescription = translatedContent.substring(0, 120) + '...'; // Japanese meta descriptions are often shorter
+
+    console.log(`Successfully translated to Japanese: ${translatedTitle}`);
+    return { title: translatedTitle, content: translatedContent, metaTitle, metaDescription };
+
+  } catch (error) {
+    console.error('Error translating article to Japanese:', error);
+    return { title: `(翻訳失敗) ${title}`, content: `(翻訳失敗) ${content}` };
+  }
+}
+
 export async function rewriteArticle(article: CrawledArticle): Promise<RewrittenArticle> {
   if (!OPENROUTER_API_KEY) {
     console.error('OpenRouter API key not configured');

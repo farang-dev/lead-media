@@ -16,6 +16,7 @@ jobs:
           npm -v
       - run: npm install
       - run: node scripts/test-full-process.js
+      - run: node scripts/generate-sitemap.js
         env:
           WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com"
           WORDPRESS_USERNAME: "fuminozawa246"
@@ -25,3 +26,4 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NEXT_PUBLIC_SITE_URL: "https://www.unmanned-newsroom.com/"
           TARGET_WEBSITE: https://techcrunch.com/category/artificial-intelligence/
+          WORDPRESS_API_URL: "https://public-api.wordpress.com/wp/v2/sites/fumixo5.wordpress.com" # Added for sitemap generation
