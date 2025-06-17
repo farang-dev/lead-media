@@ -17,7 +17,10 @@ const WP_USERNAME = process.env.WORDPRESS_USERNAME;
 const WP_PASSWORD = process.env.WORDPRESS_PASSWORD;
 const WORDPRESS_JP_CATEGORY_ID = process.env.WORDPRESS_JP_CATEGORY_ID; // Added for Japanese category
 const NEXT_PUBLIC_SITE_URL = process.env.NEXT_PUBLIC_SITE_URL; // Used by openrouter.ts
-const TARGET_WEBSITE = process.env.TARGET_WEBSITE || 'https://techcrunch.com/category/artificial-intelligence/';
+const TARGET_WEBSITES = [
+  process.env.TARGET_WEBSITE || 'https://techcrunch.com/category/artificial-intelligence/',
+  'https://generativeai.pub/latest'
+];
 
 // Function to check if an article was published within the last 24 hours
 function isPublishedWithin24Hours(dateString) {
@@ -678,13 +681,20 @@ async function main() {
     // return;
   }
 
-  // 1. Crawl website to find articles
-  let articles = await crawlWebsite(TARGET_WEBSITE);
+  // 1. Crawl websites to find articles
+  let allArticles = [];
+  for (const targetUrl of TARGET_WEBSITES) {
+    console.log(`
+--- Processing target URL: ${targetUrl} ---`);
+    let articlesFromUrl = await crawlWebsite(targetUrl);
 
-  if (articles.length === 0) {
-    console.log('No articles found with primary method, trying alternative approach...');
-    articles = await crawlAlternative(TARGET_WEBSITE);
+    if (articlesFromUrl.length === 0) {
+      console.log('No articles found with primary method, trying alternative approach...');
+      articlesFromUrl = await crawlAlternative(targetUrl);
+    }
+    allArticles.push(...articlesFromUrl);
   }
+  let articles = allArticles; // Use 'articles' for the rest of the script for consistency
 
   if (articles.length === 0) {
     console.log('No articles found. Exiting.');
