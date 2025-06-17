@@ -31,7 +31,7 @@ export async function generateMetaData(title: string, content: string): Promise<
         'X-Title': SITE_NAME
       },
       body: JSON.stringify({
-        model: 'anthropic/claude-3-5-sonnet',
+        model: 'microsoft/mai-ds-r1:free',
         messages: [
           {
             role: 'system',
@@ -87,7 +87,7 @@ export async function translateArticleToJapanese(title: string, content: string)
         'X-Title': SITE_NAME 
       },
       body: JSON.stringify({
-        model: 'anthropic/claude-3-5-sonnet', // Or another model good at Japanese translation
+        model: 'microsoft/mai-ds-r1:free', // Or another model good at Japanese translation
         messages: [
           {
             role: 'system',
@@ -144,7 +144,7 @@ export async function rewriteArticle(article: CrawledArticle): Promise<Rewritten
         'X-Title': SITE_NAME
       },
       body: JSON.stringify({
-        model: 'anthropic/claude-3-5-sonnet',
+        model: 'microsoft/mai-ds-r1:free',
         messages: [
           {
             role: 'system',
