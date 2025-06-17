@@ -507,7 +507,7 @@ async function rewriteArticle(article) {
 }
 */
 // 4. Post to WordPress
-async function postToWordPress(article, rewrittenArticle) {
+async function postToWordPress(article, rewrittenArticle, categoryId = null) {
   if (!WP_API_URL) {
     console.error('WordPress API URL not configured');
     return false;
@@ -644,6 +644,7 @@ async function postToWordPress(article, rewrittenArticle) {
         status: 'publish',
         author: 1, // Use the user ID of the WordPress account (usually 1 for the primary admin)
         author_name: authorName, // Use the same readable author name
+        categories: categoryId ? [categoryId] : [], // Add category if provided
         meta: {
           _yoast_wpseo_title: metaTitle || title,
           _yoast_wpseo_metadesc: metaDescription || cleanedContent.substring(0, 155) + '...'
@@ -767,16 +768,39 @@ async function main() {
       console.log(`Original title: ${article.title}`);
       console.log(`Rewritten title: ${rewrittenArticle.title}`);
 
-      // 4. Post to WordPress
-      console.log('Posting to WordPress...');
-      const posted = await postToWordPress(article, rewrittenArticle);
+      // 4. Post to WordPress (English version)
+      console.log('Posting English article to WordPress...');
+      const postedEnglish = await postToWordPress(article, rewrittenArticle);
 
-      if (posted) {
-        console.log('Article posted to WordPress successfully!');
+      if (postedEnglish) {
+        console.log('English article posted to WordPress successfully!');
         results.successful++;
       } else {
-        console.log('Failed to post article to WordPress.');
+        console.log('Failed to post English article to WordPress.');
         results.failed++;
+      }
+
+      // 5. Translate to Japanese
+      console.log('Translating article to Japanese...');
+      const translatedArticle = await translateArticleToJapanese(rewrittenArticle.title, rewrittenArticle.content);
+
+      if (!translatedArticle || !translatedArticle.title || !translatedArticle.content) {
+        console.log('Failed to translate article to Japanese. Skipping Japanese post.');
+      } else {
+        console.log('Article translated to Japanese successfully!');
+        console.log(`Japanese title: ${translatedArticle.title}`);
+
+        // 6. Post to WordPress (Japanese version)
+        console.log('Posting Japanese article to WordPress...');
+        // Pass the Japanese category ID
+        const postedJapanese = await postToWordPress(translatedArticle, translatedArticle, WORDPRESS_JP_CATEGORY_ID);
+        if (postedJapanese) {
+          console.log('Japanese article posted to WordPress successfully!');
+          // Potentially update a different counter for successful Japanese posts if needed
+        } else {
+          console.log('Failed to post Japanese article to WordPress.');
+          // Potentially update a different counter for failed Japanese posts if needed
+        }
       }
 
       results.processed++;
