@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 export interface Post {
   id: number;
   title: {
@@ -34,7 +36,7 @@ export interface PaginatedPosts {
   totalPosts: number;
 }
 
-export async function fetchPosts(page: number = 1, perPage: number = 20): Promise<PaginatedPosts> {
+export async function fetchPosts(page: number = 1, perPage: number = 20, categoryId?: number): Promise<PaginatedPosts> {
   if (!WP_API_URL) {
     console.error('WordPress API URL not configured');
     return {
@@ -45,8 +47,13 @@ export async function fetchPosts(page: number = 1, perPage: number = 20): Promis
   }
 
   try {
+    let apiUrl = `${WP_API_URL}/posts?_embed=author&per_page=${perPage}&page=${page}`;
+    if (categoryId) {
+      apiUrl += `&categories=${categoryId}`;
+    }
+
     const response = await fetch(
-      `${WP_API_URL}/posts?_embed=author&per_page=${perPage}&page=${page}`,
+      apiUrl,
       {
         next: { revalidate: 10 }, // Revalidate every 10 seconds during development
         headers: {
@@ -194,21 +201,46 @@ function getDummyPosts(): Post[] {
   ];
 }
 
-export async function fetchRelatedPosts(currentPostId: number, count: number = 3): Promise<Post[]> {
+export async function fetchRelatedPosts(currentPostId: number, count: number = 3, lang: string = 'en'): Promise<Post[]> {
   if (!WP_API_URL) {
     console.error('WordPress API URL not configured');
     return [];
   }
 
   try {
-    // Fetch recent posts excluding the current one
-    const response = await fetch(
-      `${WP_API_URL}/posts?_embed=author&per_page=${count + 1}&exclude=${currentPostId}`,
-      {
-        next: { revalidate: 10 },
-        headers: {
-          'Accept': 'application/json'
+    // Fetch posts from the same category as the current post, excluding the current post itself
+    // First, get the current post's categories
+    const currentPostData = await fetch(`${WP_API_URL}/posts/${currentPostId}?_fields=categories`, {
+      next: { revalidate: 60 }, // Cache for a minute
+    });
+    if (!currentPostData.ok) {
+      console.error(`Failed to fetch categories for post ${currentPostId}`);
+      return [];
+    }
+    const postJson = await currentPostData.json();
+    const categoryIds = postJson.categories;
+
+    if (!categoryIds || categoryIds.length === 0) {
+      console.log(`Post ${currentPostId} has no categories, fetching recent posts instead.`);
+      // Fallback: fetch recent posts if no categories
+      const response = await fetch(
+        `${WP_API_URL}/posts?_embed=author&per_page=${count}&exclude=${currentPostId}&orderby=date&order=desc`,
+        {
+          next: { revalidate: 60 }, // Cache for a minute
         }
+      );
+      if (!response.ok) {
+        throw new Error(`Failed to fetch related posts (fallback): ${response.statusText}`);
+      }
+      const posts = await response.json();
+      return posts.map(formatPost);
+    }
+
+    // Fetch posts from the same categories
+    const response = await fetch(
+      `${WP_API_URL}/posts?_embed=author&categories=${categoryIds.join(',')}&per_page=${count}&exclude=${currentPostId}`,
+      {
+        next: { revalidate: 60 }, // Cache for a minute
       }
     );
 
@@ -217,80 +249,76 @@ export async function fetchRelatedPosts(currentPostId: number, count: number = 3
     }
 
     const posts = await response.json();
-
-    // Return only the requested number of posts
-    return posts.slice(0, count).map(formatPost);
+    return posts.map(formatPost);
   } catch (error) {
     console.error('Error fetching related posts:', error);
     return [];
   }
 }
 
-export async function publishPost(title: string, content: string, status: 'publish' | 'draft' = 'publish', metaTitle?: string, metaDescription?: string, language?: 'en' | 'jp'): Promise<Post | null> {
-  if (!WP_API_URL) {
-    console.error('WordPress API URL not configured');
+
+export async function publishPost(
+  title: string,
+  content: string,
+  status: 'publish' | 'draft' = 'publish',
+  metaTitle?: string,
+  metaDescription?: string,
+  language: 'en' | 'jp' = 'en' // Added language parameter
+): Promise<Post | null> {
+  const WP_USERNAME = process.env.WORDPRESS_USERNAME;
+  const WP_PASSWORD = process.env.WORDPRESS_PASSWORD; // Or WORDPRESS_API_KEY
+  const WORDPRESS_JP_CATEGORY_ID = process.env.WORDPRESS_JP_CATEGORY_ID;
+
+  if (!WP_API_URL || !WP_USERNAME || !WP_PASSWORD) {
+    console.error('WordPress API URL, username, or password/API key not configured');
     return null;
   }
 
-  const WP_USERNAME = process.env.WORDPRESS_USERNAME;
-  const WP_API_KEY = process.env.WORDPRESS_API_KEY;
+  // Basic content cleaning (example, expand as needed)
+  let cleanedContent = content.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, ''); // Remove script tags, avoid 's' flag
+  // Add more cleaning rules if necessary
 
-  if (!WP_USERNAME || !WP_API_KEY) {
-    console.error('WordPress credentials not configured');
-    return null;
+  const headers = new Headers();
+  headers.append('Content-Type', 'application/json');
+  // Use Application Password (recommended) or Basic Auth
+  headers.append('Authorization', `Basic ${Buffer.from(`${WP_USERNAME}:${WP_PASSWORD}`).toString('base64')}`);
+
+  const postData: any = {
+    title,
+    content: cleanedContent,
+    status,
+    meta: {},
+    categories: [] // Initialize categories array
+  };
+
+  // Add Yoast SEO metadata if provided
+  if (metaTitle) {
+    postData.meta._yoast_wpseo_title = metaTitle;
+  }
+  if (metaDescription) {
+    postData.meta._yoast_wpseo_metadesc = metaDescription;
+  }
+
+  // Add Japanese category if language is 'jp' and ID is set
+  if (language === 'jp') {
+    if (WORDPRESS_JP_CATEGORY_ID) {
+      const jpCategoryId = parseInt(WORDPRESS_JP_CATEGORY_ID, 10);
+      if (!isNaN(jpCategoryId)) {
+        postData.categories.push(jpCategoryId);
+        console.log(`Assigning Japanese category ID: ${jpCategoryId}`);
+      } else {
+        console.warn('WORDPRESS_JP_CATEGORY_ID is not a valid number. Japanese post will not be categorized.');
+      }
+    } else {
+      console.warn('WORDPRESS_JP_CATEGORY_ID is not set. Japanese post will not be categorized.');
+    }
   }
 
   try {
-    // Process the content to clean up any formatting issues
-    const { cleanupArticle } = await import('./article-processor');
-    let cleanedContent = cleanupArticle(content);
-
-    // Additional cleanup for any remaining formatting issues
-    // Remove any remaining related articles section
-    cleanedContent = cleanedContent.replace(/(?:Read More|Related Articles):([\s\S]*?)$/i, '');
-
-    // Remove any remaining about the author section
-    cleanedContent = cleanedContent.replace(/(?:About the Author)([\s\S]*?)$/i, '');
-
-    // Create basic auth header
-    const basicAuth = Buffer.from(`${WP_USERNAME}:${WP_API_KEY}`).toString('base64');
-
-    // Prepare data for the post
-    const postPayload: any = {
-      title,
-      content: cleanedContent,
-      status, // Use the status parameter from function arguments
-      meta: {
-        _yoast_wpseo_title: metaTitle || title,
-        _yoast_wpseo_metadesc: metaDescription || cleanedContent.substring(0, 155) + '...'
-      },
-      categories: [] // Initialize categories
-      // tags: [] // Initialize tags if needed, e.g., postPayload.tags = [];
-    };
-
-    // If language is Japanese, assign to a specific category
-    if (language === 'jp') {
-      const jpCategoryIdStr = process.env.WORDPRESS_JP_CATEGORY_ID;
-      if (jpCategoryIdStr) { // Check if the env var is set
-          const jpCategoryId = parseInt(jpCategoryIdStr, 10);
-          if (!isNaN(jpCategoryId)) { // Check if parsing was successful
-              postPayload.categories.push(jpCategoryId);
-          } else {
-              console.warn(`WORDPRESS_JP_CATEGORY_ID ('${jpCategoryIdStr}') is not a valid number. Japanese post may not be categorized correctly.`);
-          }
-      } else {
-          console.warn('WORDPRESS_JP_CATEGORY_ID not set. Japanese post may not be categorized correctly. Consider setting a default category ID or ensuring the .env variable is available.');
-          // Example: postPayload.categories.push(10); // Default Japanese category ID if desired
-      }
-    }
-
     const response = await fetch(`${WP_API_URL}/posts`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Basic ${basicAuth}`
-      },
-      body: JSON.stringify(postPayload)
+      headers: headers, // Use the headers object defined above
+      body: JSON.stringify(postData) // Use postData which is defined
     });
 
     if (!response.ok) {

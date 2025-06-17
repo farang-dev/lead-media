@@ -40,14 +40,15 @@ export async function processArticles() {
       }
 
       // Step 4: Rewrite the article using OpenRouter
-      const rewrittenArticle = await rewriteArticle(article);
+      const rewrittenArticle = await rewriteArticle(article); // Reverted: rewriteArticle expects CrawledArticle
 
       // Step 5: Publish to WordPress
       const published = await publishPost(
-        rewrittenArticle.title,
-        rewrittenArticle.content,
-        rewrittenArticle.metaTitle,
-        rewrittenArticle.metaDescription
+        rewrittenArticle.title, // title is not optional in RewrittenArticle
+        rewrittenArticle.content, // content is not optional in RewrittenArticle
+        'publish', // Explicitly set status, publishPost expects it as 3rd param if meta is provided
+        rewrittenArticle.metaTitle || '', // Provide default if undefined
+        rewrittenArticle.metaDescription || '' // Provide default if undefined
       );
 
       if (published) {

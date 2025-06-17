@@ -3,13 +3,16 @@ import Link from 'next/link';
 interface PaginationProps {
   currentPage: number;
   totalPages: number;
+  lang?: string; // Added lang prop
 }
 
-export default function Pagination({ currentPage, totalPages }: PaginationProps) {
+export default function Pagination({ currentPage, totalPages, lang }: PaginationProps) {
   // Don't show pagination if there's only one page
   if (totalPages <= 1) {
     return null;
   }
+
+  const basePath = lang === 'jp' ? '/jp' : '';
 
   // Calculate the range of page numbers to show
   const pageNumbers = [];
@@ -32,7 +35,7 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
       {/* Previous page button */}
       {currentPage > 1 && (
         <Link 
-          href={`/?page=${currentPage - 1}`}
+          href={`${basePath}/?page=${currentPage - 1}`}
           className="px-3 py-1 border rounded text-gray-600 hover:bg-gray-100"
         >
           &laquo; Prev
@@ -43,7 +46,7 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
       {startPage > 1 && (
         <>
           <Link 
-            href="/?page=1"
+            href={`${basePath}/?page=1`}
             className="px-3 py-1 border rounded text-gray-600 hover:bg-gray-100"
           >
             1
@@ -58,8 +61,8 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
       {pageNumbers.map(number => (
         <Link 
           key={number}
-          href={`/?page=${number}`}
-          className={`px-3 py-1 border rounded ${
+          href={`${basePath}/?page=${number}`}
+          className={`px-3 py-1 border rounded ${ 
             number === currentPage 
               ? 'bg-orange-500 text-white' 
               : 'text-gray-600 hover:bg-gray-100'
@@ -76,7 +79,7 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
             <span className="px-3 py-1 text-gray-500">...</span>
           )}
           <Link 
-            href={`/?page=${totalPages}`}
+            href={`${basePath}/?page=${totalPages}`}
             className="px-3 py-1 border rounded text-gray-600 hover:bg-gray-100"
           >
             {totalPages}
@@ -87,7 +90,7 @@ export default function Pagination({ currentPage, totalPages }: PaginationProps)
       {/* Next page button */}
       {currentPage < totalPages && (
         <Link 
-          href={`/?page=${currentPage + 1}`}
+          href={`${basePath}/?page=${currentPage + 1}`}
           className="px-3 py-1 border rounded text-gray-600 hover:bg-gray-100"
         >
           Next &raquo;

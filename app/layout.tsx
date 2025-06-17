@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
+import LanguageSwitcher from '@/components/LanguageSwitcher'; // Import the new component
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -106,6 +107,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} bg-gray-100`}>
+        <LanguageSwitcher /> {/* Add the LanguageSwitcher component */}
         <div className="min-h-screen">
           {children}
         </div>

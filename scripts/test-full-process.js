@@ -6,6 +6,8 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const fs = require('fs');
 // We'll import the cleanupArticle function dynamically later
 // const { cleanupArticle } = require('../lib/article-processor');
+const { generateMetaData, rewriteArticle: rewriteArticleContent, translateArticleToJapanese } = require('../lib/openrouter');
+const { publishPost } = require('../lib/wordpress');
 
 // WordPress credentials from environment variables
 const WP_API_URL = process.env.WORDPRESS_API_URL;
@@ -13,6 +15,8 @@ const WP_CLIENT_ID = process.env.WORDPRESS_CLIENT_ID;
 const WP_CLIENT_SECRET = process.env.WORDPRESS_CLIENT_SECRET;
 const WP_USERNAME = process.env.WORDPRESS_USERNAME;
 const WP_PASSWORD = process.env.WORDPRESS_PASSWORD;
+const WORDPRESS_JP_CATEGORY_ID = process.env.WORDPRESS_JP_CATEGORY_ID; // Added for Japanese category
+const NEXT_PUBLIC_SITE_URL = process.env.NEXT_PUBLIC_SITE_URL; // Used by openrouter.ts
 const TARGET_WEBSITE = process.env.TARGET_WEBSITE || 'https://techcrunch.com/category/artificial-intelligence/';
 
 // Function to check if an article was published within the last 24 hours
@@ -455,136 +459,50 @@ async function crawlArticleContent(url) {
   }
 }
 
-// 3. Rewrite article using OpenRouter API with SEO optimization
-async function rewriteArticle(article) {
-  const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-  if (!OPENROUTER_API_KEY) {
-    console.error('OpenRouter API key not configured');
-    console.error('Please set OPENROUTER_API_KEY in your .env file');
-    console.error('You can get an API key from https://openrouter.ai/keys');
-    return null; // Return null to indicate failure
-  }
-
-  console.log(`Rewriting article: ${article.title}`);
+// 3. Rewrite article using OpenRouter API with SEO optimization (now a wrapper for lib functions)
+async function rewriteArticleAndGenerateMeta(article) {
+  console.log(`Preparing to rewrite and generate meta for article: ${article.title}`);
   try {
-    // First, generate SEO-optimized title and meta description
-    console.log('Generating SEO metadata...');
-    const seoResponse = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'HTTP-Referer': process.env.NEXT_PUBLIC_SITE_URL || 'https://lead-media.vercel.app/',
-        'X-Title': 'Unmanned Newsroom'
-      },
-      body: JSON.stringify({
-        model: 'deepseek/deepseek-chat-v3-0324:free',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are an SEO expert specializing in tech and AI content. Create an SEO-optimized title and meta description for the article. The title should be attention-grabbing, include relevant keywords, and be under 60 characters. The meta description should summarize the article, include keywords, and be under 155 characters.\n\nYour response format MUST be:\nTITLE: [Your SEO title]\nMETA: [Your meta description]'
-          },
-          {
-            role: 'user',
-            content: `Create SEO-optimized title and meta description for this article:\n\nOriginal Title: ${article.title}\n\nContent: ${article.content.substring(0, 1500)}...`
-          }
-        ]
-      })
-    });
+    console.log('Generating SEO metadata using lib/openrouter...');
+    const metaData = await generateMetaData(article.title, article.content.substring(0, 1500));
 
-    if (!seoResponse.ok) {
-      const errorText = await seoResponse.text();
-      console.error(`OpenRouter API error status: ${seoResponse.status} ${seoResponse.statusText}`);
-      console.error(`OpenRouter API error details: ${errorText}`);
-      throw new Error(`OpenRouter API error: ${seoResponse.statusText}`);
+    if (!metaData || !metaData.title || !metaData.description) {
+      console.error('Failed to generate SEO metadata from lib/openrouter.');
+      return null;
     }
+    console.log('SEO Title (from lib):', metaData.title);
+    console.log('Meta Description (from lib):', metaData.description);
 
-    const seoData = await seoResponse.json();
-    const seoText = seoData.choices[0].message.content;
+    console.log('Rewriting article content using lib/openrouter...');
+    // Use the imported rewriteArticleContent which is the actual rewrite function from lib/openrouter
+    const rewrittenData = await rewriteArticleContent(article.title, article.content, metaData.title);
 
-    // Extract SEO title and meta description
-    let seoTitle = article.title;
-    let seoMetaDescription = '';
-
-    const titleMatch = seoText.match(/TITLE:\s*(.+)/);
-    if (titleMatch && titleMatch[1]) {
-      seoTitle = titleMatch[1].trim();
+    if (!rewrittenData || !rewrittenData.title || !rewrittenData.content) {
+      console.error('Failed to rewrite article using lib/openrouter.');
+      return null;
     }
-
-    const metaMatch = seoText.match(/META:\s*(.+)/);
-    if (metaMatch && metaMatch[1]) {
-      seoMetaDescription = metaMatch[1].trim();
-    }
-
-    console.log(`SEO Title: ${seoTitle}`);
-    console.log(`SEO Meta Description: ${seoMetaDescription}`);
-
-    // Now rewrite the article with SEO optimization
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-        'HTTP-Referer': process.env.NEXT_PUBLIC_SITE_URL || 'https://lead-media.vercel.app/',
-        'X-Title': 'Unmanned Newsroom'
-      },
-      body: JSON.stringify({
-        model: 'deepseek/deepseek-chat-v3-0324:free',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are an expert tech and AI content rewriter for "Unmanned Newsroom" with strong SEO skills. Rewrite the article to make it unique while preserving all factual information. Optimize the content for search engines by:\n\n1. Using the provided SEO title\n2. Including relevant keywords naturally throughout the text\n3. Using proper heading structure with H2 and H3 tags for subtopics\n4. Adding semantic HTML like <strong> for important terms\n5. Writing engaging, scannable content with short paragraphs\n6. Including a strong introduction and conclusion\n\nIMPORTANT FORMATTING RULES:\n\n1. Your response MUST start with the SEO title on the first line, followed by a blank line, then the content\n2. Use HTML tags like <h2>, <h3>, <strong> and <em> for proper structure and emphasis\n3. DO NOT include any of these sections in your output:\n   - "Topics" or "Popular Stories" sections\n   - "Related Articles" or "Read More" sections\n   - "About the Author" sections\n   - Author bios or signatures\n   - "AI Editor" signatures\n   - "Posted:" markers at the beginning of content\n   - Subscription information sections\n   - "By submitting your email" disclaimers\n   - Newsletter signup forms\n   - "Every weekday and Sunday" promotional text\n   - Privacy Notice mentions\n4. DO NOT repeat the title at the beginning of the article content\n5. DO NOT include any links to other articles at the end\n6. Focus ONLY on the main article content\n7. NEVER include the word "Posted:" in your output\n8. NEVER include any text about subscribing to newsletters\n9. Emphasize tech and AI aspects of the story when relevant. do not use special symbols like * or ** for bold or italic text. use <strong> and <em> tags instead.'
-          },
-          {
-            role: 'user',
-            content: `Please rewrite this article with the SEO title "${seoTitle}":\n\n${article.content}`
-          }
-        ]
-      })
-    });
-
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error(`OpenRouter API error status: ${response.status} ${response.statusText}`);
-      console.error(`OpenRouter API error details: ${errorText}`);
-      throw new Error(`OpenRouter API error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    const rewrittenText = data.choices[0].message.content;
-
-    // Extract the title and content
-    // The title is the first line, and the content is everything after the first blank line
-    const lines = rewrittenText.split('\n');
-    const title = lines[0];
-    const content = lines.slice(2).join('\n'); // Skip the title and the blank line
-
-    // Clean up the content
-    const cleanedContent = content
-      .replace(/Posted:/g, '')
-      .replace(/Topics[\s\S]*$/g, '')
-      .replace(/Subscribe for the industry[\s\S]*?Privacy Notice\./g, '')
-      .replace(/Every weekday and Sunday[\s\S]*?Privacy Notice\./g, '')
-      .replace(/By submitting your email[\s\S]*?Privacy Notice\./g, '')
-      .replace(/TechCrunch's AI experts[\s\S]*?Privacy Notice\./g, '')
-      .replace(/Startups are the core[\s\S]*?Privacy Notice\./g, '');
-
-    console.log(`Rewritten title: ${title}`);
-    console.log(`Rewritten content (first 100 chars): ${cleanedContent.substring(0, 100)}...`);
+    console.log('Rewritten Title (from lib):', rewrittenData.title);
 
     return {
-      title,
-      content: cleanedContent,
-      metaTitle: seoTitle,
-      metaDescription: seoMetaDescription
+      title: rewrittenData.title,
+      content: rewrittenData.content,
+      metaTitle: metaData.title,
+      metaDescription: metaData.description
     };
+
   } catch (error) {
-    console.error('Error rewriting article:', error);
-    // Return null to indicate failure instead of falling back to original content
+    console.error('Error in rewriteArticleAndGenerateMeta (scripts/test-full-process.js):', error);
     return null;
   }
 }
 
+// The old rewriteArticle function's content is now largely in lib/openrouter.ts.
+// The function above, rewriteArticleAndGenerateMeta, now calls those library functions.
+/*
+async function rewriteArticle(article) { 
+  // ... (old content of local rewriteArticle, which started around line 456)
+}
+*/
 // 4. Post to WordPress
 async function postToWordPress(article, rewrittenArticle) {
   if (!WP_API_URL) {
@@ -827,7 +745,7 @@ async function main() {
 
       // 3. Rewrite the article
       console.log('Rewriting article...');
-      const rewrittenArticle = await rewriteArticle(article);
+      const rewrittenArticle = await rewriteArticleContent(article); // Use the imported name
 
       if (!rewrittenArticle || !rewrittenArticle.content) {
         console.log('Failed to rewrite article. Skipping.');
