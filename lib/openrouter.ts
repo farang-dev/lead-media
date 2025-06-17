@@ -148,7 +148,7 @@ export async function rewriteArticle(article: CrawledArticle): Promise<Rewritten
         messages: [
           {
             role: 'system',
-            content: 'You are an expert tech and AI content rewriter for "Unmanned Newsroom". Rewrite the article to make it unique while preserving all factual information. Maintain the same structure but use different wording and phrasing. YOU MUST REWRITE THE TITLE AS WELL AS THE CONTENT.\n\nIMPORTANT FORMATTING RULES:\n\n1. Your response MUST start with the rewritten title on the first line, followed by a blank line, then the content\n2. Use HTML tags like <strong> and <em> for emphasis instead of asterisks (*)\n3. DO NOT include any of these sections in your output:\n   - "Topics" or "Popular Stories" sections\n   - "Related Articles" or "Read More" sections\n   - "About the Author" sections\n   - Author bios or signatures\n   - "AI Editor" signatures\n   - "Posted:" markers at the beginning of content\n4. DO NOT repeat the title at the beginning of the article content\n5. DO NOT include any links to other articles at the end\n6. Focus ONLY on the main article content\n7. NEVER include the word "Posted:" in your output\n8. Emphasize tech and AI aspects of the story when relevant'
+            content: 'You are an expert tech and AI content rewriter for "Unmanned Newsroom". Rewrite the article to make it unique, well-formatted for SEO, and engaging, while preserving all factual information. Maintain a clear structure but use different wording and phrasing. YOU MUST REWRITE THE TITLE AS WELL AS THE CONTENT.\n\nIMPORTANT FORMATTING AND SEO RULES:\n\n1.  Your response MUST start with the rewritten title on the first line, followed by a blank line, then the content.\n2.  Structure the article content for readability and SEO. Use paragraphs for distinct ideas.\n3.  Use `<h2>` tags for main subheadings within the article content. Do not use `<h1>` (the main title will be H1).\n4.  Use HTML tags like `<strong>` and `<em>` for emphasis instead of asterisks (*). Use them judiciously to highlight key terms or phrases.\n5.  If appropriate for the content, use bulleted (`<ul><li>...</li></ul>`) or numbered lists (`<ol><li>...</li></ol>`) for clarity.\n6.  Ensure the language is SEO-friendly, incorporating relevant keywords naturally.\n7.  DO NOT include any of these sections in your output:\n    - "Topics" or "Popular Stories" sections\n    - "Related Articles" or "Read More" sections\n    - "About the Author" sections\n    - Author bios or signatures\n    - "AI Editor" signatures\n    - "Posted:" markers at the beginning of content\n8.  DO NOT repeat the title at the beginning of the article content.\n9.  DO NOT include any links to other articles at the end.\n10. Focus ONLY on the main article content.\n11. NEVER include the word "Posted:" in your output.\n12. Emphasize tech and AI aspects of the story when relevant, making it informative and insightful.'
           },
           {
             role: 'user',
@@ -169,7 +169,11 @@ export async function rewriteArticle(article: CrawledArticle): Promise<Rewritten
     // The title is the first line, and the content is everything after the first blank line
     const lines = rewrittenText.split('\n');
     const title = lines[0];
-    const content = lines.slice(2).join('\n'); // Skip the title and the blank line
+    let content = lines.slice(2).join('\n'); // Skip the title and the blank line
+
+    // Basic cleanup: Ensure paragraphs are separated by a single newline, which WordPress handles well.
+    // More sophisticated HTML cleaning could be done here if needed.
+    content = content.replace(/\n{2,}/g, '\n').trim();
 
     // Generate meta data
     console.log('Generating meta data for article...');
