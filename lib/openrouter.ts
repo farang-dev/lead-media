@@ -124,7 +124,7 @@ export async function translateArticleToJapanese(title: string, content: string)
 
   } catch (error) {
     console.error('Error translating article to Japanese:', error);
-    return { title: `(翻訳失敗) ${title}`, content: `(翻訳失敗) ${content}` };
+    return null;
   }
 }
 
